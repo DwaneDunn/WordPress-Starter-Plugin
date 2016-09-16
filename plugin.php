@@ -19,3 +19,16 @@
  */
 
 namespace KnowITMedia;
+
+if ( !defined( 'ABSPATH' ) ) {
+	exit( 'Cheating&#8217; uh?' );
+}
+
+require_once( __DIR__ . '/assets/vendor/autoload.php' );
+
+add_action( 'init', __NAMESPACE__ . '\launch' );
+function launch() {
+}
+
+
+

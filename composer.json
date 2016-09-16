@@ -1,0 +1,37 @@
+{
+    "name"          :"knowitmedia/wordpress-starter-plugin",
+    "description"   :"Know IT Media Starter Plugin Template. Use this plugin to base future plugin development on.",
+    "type"          :"project",
+    "keywords"      :["wordpress", "wp", "plugin"],
+    "homepage"      :"https://dwanedunn.com",
+    "license"       :"GPL-2.0+",
+    "authors"       : [
+      {
+        "name"      : "Dwane Dunn",
+        "email"     :"Dwane.Dunn@outlook.com"
+      }
+    ],
+    "require": {
+      "php" : ">=5.4.0"
+    },
+    "require-dev": {
+      "raveren/kint": "~1.0",
+      "filp/whoops": "~2.0"
+    },
+    "autoload": {
+        "classmap": [],
+        "files": [
+          "src/support/exceptions.php",
+          "src/sandbox.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "vendor-dir": "assets/vendor"
+    },
+    "minimum-stability": "dev"
+}
