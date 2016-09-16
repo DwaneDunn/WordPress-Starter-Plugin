@@ -22,7 +22,7 @@ add_action( 'loop_start',__NAMESPACE__ .'\demo' );
 */
 
 function demo() {
-	var_dump( get_the_ID() );
-	echo get_the_ID();
-	d(get_the_ID());
+//	var_dump( get_the_ID() );
+//	echo get_the_ID();
+//	d(get_the_ID());
 }
